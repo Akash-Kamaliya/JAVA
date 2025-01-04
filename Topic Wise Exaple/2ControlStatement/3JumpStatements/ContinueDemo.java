@@ -4,6 +4,7 @@ public class ContinueDemo {
             if (i == 3) {
                 continue;
             }
+            
             System.out.println("Count: " + i);
         }
     }
