@@ -8,19 +8,19 @@ public class Prime1 {
         System.out.print("Enter the ending number of the range: ");
         int end = sc.nextInt();
         System.out.println("Prime numbers between " + start + " and " + end + " are:");
-        for (int i = start; i <= end; i++) {
-            boolean isPrime = true;
-            if (i <= 1) {
-                isPrime = false;
-            }
-            for (int j = 2; j <= i/2; j++) {
-                if (i % j == 0) {
-                    isPrime = false;
+        for (int i = start; i <= end; i++) 
+        {
+            for (int j = 2; j <=i; j++) 
+            {
+                if (i % j == 0)
+                 {
                     break;
                 }
-            }
-            if (isPrime) {
-                System.out.print(i + " ");
+                else
+                {
+                    System.out.print(i + " ");
+                    break;
+                }
             }
         }
     }

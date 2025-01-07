@@ -5,18 +5,13 @@ public class Prime{
             System.out.println("Enter a");
             int a = sc.nextInt();
             int n=2;
-            int c=0;
-            while(n<a){
-            	if(a%n==0){
-            		c++;
+            while(n<Math.sqrt(a)){
+            	 if(a%n==0){
+                    System.out.println("The number is  Not  Prime :");
+            	       return;
             	}
-            	n++;
+                    n++;
             }
-            if(c==0){
-            	System.out.println("The Given Number is Prime");
-            }
-            else{
-            	System.out.println("The Given Number is Not  Prime");
-            }
+                    System.out.println("The number is   Prime :");
 	}	
 }
