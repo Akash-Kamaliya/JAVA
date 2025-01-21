@@ -7,20 +7,22 @@ public class Prime1 {
         int start = sc.nextInt();
         System.out.print("Enter the ending number of the range: ");
         int end = sc.nextInt();
-        System.out.println("Prime numbers between " + start + " and " + end + " are:");
-        for (int i = start; i <= end; i++) 
+        prime(start,end);
+    }
+    public static void prime(int a,int b){
+        System.out.println("Prime numbers between " + a + " and " + b + " are:");
+        for (int i = a; i <= b; i++) 
         {
-            for (int j = 2; j <=i; j++) 
+            int c=0;
+            for (int j = 2; j <=i/2; j++) 
             {
                 if (i % j == 0)
                  {
-                    break;
+                    c++;
                 }
-                else
-                {
-                    System.out.print(i + " ");
-                    break;
-                }
+            }
+            if(c==0){
+                System.out.println(i + " ");
             }
         }
     }
