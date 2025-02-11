@@ -17,8 +17,8 @@ class Time {
 }
 public class TimeDemo {
 	public static void main(String[] args) {
-		Time t1 = new Time(2,5);
-		Time t2 = new Time(2,5);
+		Time t1 = new Time(2,50);
+		Time t2 = new Time(2,50);
 		t1.addition(t2);
 	}
 }
