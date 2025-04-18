@@ -2,10 +2,10 @@ import java.util.Scanner;
 class This{
     static int c=0;
     public This(){
-        this.c++;
+        c++;
     }
     public void change(int r){
-        this.c = r;
+        c = r;
     }
 }
 public class ThisDemo{

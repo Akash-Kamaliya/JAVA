@@ -1,7 +1,7 @@
 class CountObject{
 	static int c=0;
 	public CountObject(){
-		this.c++;
+		c++;
 	}
 }
 public class CountObjectDemo{
@@ -11,6 +11,6 @@ public class CountObjectDemo{
 		CountObject c3 = new CountObject();
 		CountObject c4 = new CountObject();
 		CountObject c5 = new CountObject();
-		System.out.println("Total Object are = "+c1.c);
+		System.out.println("Total Object are = "+CountObject.c);
 	}
 }

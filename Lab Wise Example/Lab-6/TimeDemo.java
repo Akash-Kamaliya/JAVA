@@ -5,6 +5,10 @@ class Time {
 		this.hour = hour;
 		this.minute = minute; 
 	}
+		public Time(Time t) {
+		this.hour=t.hour;
+		this.minute=t.minute; 
+	}
 	public void addition (Time t){
 		this.hour+=t.hour;
 		this.minute+=t.minute;
@@ -18,7 +22,6 @@ class Time {
 public class TimeDemo {
 	public static void main(String[] args) {
 		Time t1 = new Time(2,50);
-		Time t2 = new Time(2,50);
-		t1.addition(t2);
+		Time t2 = new Time(t1);		t1.addition(t2);
 	}
 }
