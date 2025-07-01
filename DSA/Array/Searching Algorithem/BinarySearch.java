@@ -25,5 +25,6 @@ public class BinarySearch{
 		if(!isFound){
 			System.out.println("Number Doed not exist in array:");
 		}
+		sc.close();
 	}
 }

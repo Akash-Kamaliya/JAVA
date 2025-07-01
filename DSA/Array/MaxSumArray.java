@@ -1,4 +1,3 @@
-import java.util.*;
 public class MaxSumArray {
 	public static void maxSumArray(int num[]) {
 		int maxSum = 0;

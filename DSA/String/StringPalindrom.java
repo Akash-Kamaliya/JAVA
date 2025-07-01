@@ -17,5 +17,6 @@ public class StringPalindrom {
 		System.out.println("Enter Your String");
 		String name = sc.next();
 		isPalindrom(name);
+		sc.close();
 	}
 }

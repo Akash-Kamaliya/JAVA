@@ -1,4 +1,4 @@
-public class LinkedListDemo {
+public class InsertAtLast1 {
     public static class Node {
         int info;
         Node link;
@@ -19,12 +19,22 @@ public class LinkedListDemo {
         }
         System.out.println(); 
     }
+    public void addLast(int data){
+        Node newNode = new Node(data);
+        if(head==null){
+            head = tail = newNode;
+            return;
+        }
+        tail.link = newNode;
+        tail = newNode;
+    }
 
     public static void main(String[] args) {
-        LinkedListDemo.head = new Node(1);
-        LinkedListDemo.head.link = new Node(2);
-        LinkedListDemo.head.link.link = new Node(3);
-        LinkedListDemo.head.link.link.link = new Node(4);
-        printList(LinkedListDemo.head);
+        InsertAtLast1 l = new InsertAtLast1();
+        l.addLast(1);
+        l.addLast(2);
+        l.addLast(3);
+        l.addLast(4);
+        printList(InsertAtLast1.head);
     }
 }

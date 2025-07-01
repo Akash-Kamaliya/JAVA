@@ -16,5 +16,6 @@ public class LinearSearch{
 		if(!flag){
 			System.out.println("Number Doed not exist in array:");
 		}
+		sc.close();
 	}
 }

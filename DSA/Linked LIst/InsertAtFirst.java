@@ -33,7 +33,6 @@ public class InsertAtFirst {
         insertAtFirst(30);
         insertAtFirst(40);
         insertAtFirst(50);
-
         printList();
     }
 }

@@ -1,4 +1,3 @@
-import java.util.*;
 public class PrefixSubArraySum {
 	public static void prefixSubArraySum(int num[]) {
 		int currSum = 0;

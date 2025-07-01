@@ -1,4 +1,3 @@
-import java.util.*;
 public class KadansAlgorithm {
 	public static void kadansAlgorithm(int num[]) {
 		int ms = Integer.MIN_VALUE;
