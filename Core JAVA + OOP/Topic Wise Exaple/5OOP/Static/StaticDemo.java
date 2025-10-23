@@ -1,3 +1,4 @@
+package Static;
 class Student{
     int rollNo;
     static int noOfChoc;

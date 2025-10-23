@@ -1,3 +1,4 @@
+package Static;
 class Abc{
     static String name = "darshan";
 

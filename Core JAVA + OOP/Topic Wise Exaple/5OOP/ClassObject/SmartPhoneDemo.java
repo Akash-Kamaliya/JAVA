@@ -1,3 +1,4 @@
+package ClassObject;
 class SmartPhone{
 	String manufacturer;
 	String model ;

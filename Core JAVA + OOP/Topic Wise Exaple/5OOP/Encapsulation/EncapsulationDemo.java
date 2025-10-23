@@ -1,3 +1,5 @@
+import Static.Student;
+
 class Student {
     private String name;
     private int age;

@@ -1,3 +1,6 @@
+import Student;
+
+package ClassObject;
 class Student {
     static String university = "Darshan University";
     String name;
