@@ -4,7 +4,7 @@ interface Transport{
 
 
 abstract class Animal{
-    abstract public void method();+
+    abstract public void method();
 }
 
 

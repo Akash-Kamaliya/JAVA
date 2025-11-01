@@ -8,6 +8,7 @@ class Circle {
 		this.r = sc.nextDouble();
 		this.area = 3.14 * this.r * this.r;
 		System.out.println("The Area of a Circle is:"+this.area);
+		sc.close();
 	}
 }
 

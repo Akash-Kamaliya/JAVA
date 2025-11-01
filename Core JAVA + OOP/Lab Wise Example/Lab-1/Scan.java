@@ -8,5 +8,6 @@ public class Scan {
             System.out.println("Enter b");
             int b = sc.nextInt();
             System.out.println(a+b);
+            sc.close();
     }
 }

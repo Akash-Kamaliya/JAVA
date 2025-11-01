@@ -6,5 +6,6 @@ public class DistanceConverter {
             double a = sc.nextDouble();
             double f = a*3.28084 ;
             System.out.println("The Distance in Feet is  = "+f);
+            sc.close();
     }
 }

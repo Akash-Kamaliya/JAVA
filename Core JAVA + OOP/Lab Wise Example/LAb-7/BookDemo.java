@@ -43,5 +43,6 @@ public class BookDemo {
 			b1 = new Paper_publication(args[0],args[1]);
 		}
 		b1.display();
+		sc.close();
 	}
 }

@@ -26,5 +26,6 @@ public class Test{
         for(int i = 0;i<noOfStudents;i++){
             stu[i].display();
         }
+        sc.close();
     }
 }

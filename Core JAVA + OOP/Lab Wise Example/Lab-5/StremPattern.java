@@ -10,5 +10,6 @@ public class StremPattern {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }

@@ -1,4 +1,3 @@
-import java.util.Scanner;
 class Complex {
     double img;
     double real;

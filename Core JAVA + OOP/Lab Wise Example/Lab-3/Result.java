@@ -1,7 +1,8 @@
 import java.util.Scanner;
-public class Result{
-	public static void main(String[]args){
-		Scanner sc= new Scanner(System.in);
+
+public class Result {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Marks of Maths :");
 		int a = sc.nextInt();
 		System.out.println("Enter Marks of Web Dev :");
@@ -12,18 +13,16 @@ public class Result{
 		int d = sc.nextInt();
 		System.out.println("Enter Marks of English :");
 		int e = sc.nextInt();
-		double r = (a+b+c+d+e)/5.0;
-		if(r>=60){
+		double r = (a + b + c + d + e) / 5.0;
+		if (r >= 60) {
 			System.out.println("Congratukation !! Your Division is first : ");
+		} else if (r >= 50 && r < 60) {
+			System.out.println("Congratukation !! Your Division is second : ");
+		} else if (r >= 40 && r < 50) {
+			System.out.println("Congratukation !! Your Division is Third : ");
+		} else if (r < 40) {
+			System.out.println("Congratukation !! Your Division is FIAL : ");
 		}
-		else if(r>=50&&r<60){
-			System.out.println("Congratukation !! Your Division is second : ");	
-		}
-		else if(r>=40&&r<50){
-			System.out.println("Congratukation !! Your Division is Third : ");	
-		}
-		else if(r<40){
-			System.out.println("Congratukation !! Your Division is FIAL : ");	
-		}
+		sc.close();
 	}
 }

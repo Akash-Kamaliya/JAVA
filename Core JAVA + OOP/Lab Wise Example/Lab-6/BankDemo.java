@@ -24,6 +24,7 @@ class Bank_Account {
         
         System.out.print("Enter Account Balance: ");
         accountBalance = scanner.nextDouble();
+        scanner.close();
     }
 
     public void displayAccountDetails() {

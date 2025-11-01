@@ -11,5 +11,6 @@ public class Identify {
             else{
                 System.out.println("Given Chaaracter is Constant :");
             }
+            sc.close();
     }
 }

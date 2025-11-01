@@ -8,8 +8,8 @@ public class PalindromeNumber {
         int original = number;
         int reverse = 0;
         while (number != 0) {
-            int digit = number % 10; 
-            reverse = reverse * 10 + digit; 
+            int digit = number % 10;
+            reverse = reverse * 10 + digit;
             number /= 10;
         }
         if (original == reverse) {
@@ -17,5 +17,6 @@ public class PalindromeNumber {
         } else {
             System.out.println(original + " is not a palindrome.");
         }
+        sc.close();
     }
 }

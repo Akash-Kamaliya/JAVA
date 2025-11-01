@@ -25,6 +25,7 @@ public class CubeCal{
             double depth = sc.nextDouble();
             cube[i] = new  Cube(height,width,depth);
             cube[i].cal();
+            sc.close();
         }
     }
 }

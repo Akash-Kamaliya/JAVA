@@ -17,7 +17,7 @@ class Student{
         this.grade = grade;
     }
     public double spiCal(){
-        for(int i = 0 ; i < this.noOfSubjects ; i++){0
+        for(int i = 0 ; i < this.noOfSubjects ; i++){
             this.gradeValue = gradeValue(grade[i]);
             this.total += this.gradeValue * this.credit[i];
             this.totalCredit += this.credit[i];
@@ -67,5 +67,6 @@ public class StudentsDemo{
            double spi = s[i].spiCal();
            System.out.println("Spi of student no."+(i+1)+" is = "+spi);
         }
+        sc.close();
     }
 }

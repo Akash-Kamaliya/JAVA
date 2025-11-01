@@ -13,7 +13,8 @@ public class Average{
 			avg[i] = sc.nextInt();
 			totle+=avg[i];
 			num++;
-		}8
+		}
 		System.out.println("The Avarage of given number is ="+(totle/num));
+		sc.close();
 	}
 }

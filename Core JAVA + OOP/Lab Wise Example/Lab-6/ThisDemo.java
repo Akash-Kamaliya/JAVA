@@ -9,17 +9,23 @@ class This{
     }
 }
 public class ThisDemo{
+    @SuppressWarnings("static-access")
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
         This c1 = new This();
+        @SuppressWarnings("unused")
         This c2 = new This();
+        @SuppressWarnings("unused")
         This c3 = new This();
+        @SuppressWarnings("unused")
         This c4 = new This();
+        @SuppressWarnings("unused")
         This c5 = new This();
         System.out.println("Total Object are = "+c1.c);
         System.out.println("Enter a number to change Value of Static Vriable");
         int r = sc.nextInt();
         c1.change(r);
         System.out.println("Value of C = "+c1.c);
+        sc.close();
     }
 }
